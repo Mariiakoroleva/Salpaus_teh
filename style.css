@@ -2,6 +2,8 @@ body{
   background-color: #2A1F33;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .menu_list {
   text-decoration: none;
@@ -54,6 +56,60 @@ nav.fixed {
     top:0; left:0;
     width:100%;
 }
-.chaterpic {
-  aling: right;
+.main_circle{
+
+  
+  background: #2E0622;
+  border: 1px solid white;
+  margin-top: 50px;
+  margin-button: 50px;
+  
+}
+.charter_content_r{
+  
+  text-align: right;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  margin-left: 15%;
+  margin-right: 35%;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ .charter_content_l{
+ 
+  text-align: left;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  margin-left: 25%;
+  margin-right: 15%;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+.chaterpic{
+  margin-top: 0;
+  height: 500px;
+  width: auto;
+  padding-left: 25px;
+  position: flex;
+  top: 50%;
+  padding-top: 125px;
+  //transform: translate(-50%);
+  //padding-right: 50px;
+
+}
+.chaterpic_r{
+  margin-top: 0;
+  height: 500px;
+  width: auto;
+  margin-right: 10%;
+  position: flex;
+  top: 50%;
+  padding-top: 125px;
+  padding-: 25px;
 }
