@@ -4,10 +4,10 @@ body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
  
 
-  /*colors #889C52 (olive), #2E0622 dark blue #2A1F33 lighter blue #2E0622 dark magenta*/
+  /*colors rgb(136, 148, 104); (olive), #2A1F33 (bg) #190629 (nav) lighter blue #2E0622 dark magenta*/
 }
 /*Navigation*/
 .menu_list {
@@ -96,9 +96,11 @@ color: rgb(136, 148, 104);
 
   
   background: #2E0622 no-repeat center / cover;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-top: 250px;
+  padding-bottom: 250px;  
   margin-left: 0;
   position:relative;
 
@@ -107,13 +109,12 @@ color: rgb(136, 148, 104);
 .main_circle p{
   /*border: 1px solid rgb(70, 201, 224);*/
   color: rgb(136, 148, 104);
- 
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18pt;
-  margin-top: 250px;
-  margin-bottom: 250px;
+  /*margin-top: 250px;
+  margin-bottom: 250px;*/
 }
 .charter_content_r{
  /*border: 1px solid rgb(70, 201, 224);*/
@@ -171,15 +172,41 @@ padding-left: 75%;
 }
 /*Buttons CSS*/
 .main_circle button{
-  border: 1px solid rgb(70, 201, 224);
-  background: #2E0622;
-  text-decoration: none;
-  padding: 15px 32px;
-  position: absolute;
-  left: 25%;
-  top: 75%;
+/*border: 1px solid rgb(70, 201, 224);*/
+background: #190629;
+padding: 15px 32px;
+position: absolute;
+color: rgb(136, 148, 104);
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+font-family: 'Yesteryear', cursive;
+margin-bottom:250px; 
+border-radius: 25px;
+top: 75%;
+float: left;
+border: none;
+}
+.main_circle a{
+  text-decoration:none;
+  color: rgb(136, 148, 104);
+  text-transform: capitalize;
+}
+.main_circle a:visited{
+ color: rgb(79, 92, 44);
+}
+.main_circle button:hover{
+background: #2A1F33;
+
+}
+.button_left{
+left: 25%;
   
 }
 .button_right{
-  
+left: 50%;
+border: 1px solid rgb(70, 201, 224);
 }
+
+
