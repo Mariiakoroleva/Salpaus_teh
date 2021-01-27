@@ -4,11 +4,15 @@ body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-}
+  box-sizing: border-box;
+ 
 
+  /*colors #889C52 (olive), #2E0622 dark blue #2A1F33 lighter blue #2E0622 dark magenta*/
+}
+/*Navigation*/
 .menu_list {
   text-decoration: none;
-  color: #fff;
+  color: #889C52;
 }
 nav{
   width: 960px;
@@ -57,67 +61,125 @@ nav.fixed {
     top:0; left:0;
     width:100%;
 }
+
+
+
+/*h3 CSS*/
+#Bills_h3{
+  /*border: 1px solid rgb(70, 201, 224);*/
+font-family: 'Yesteryear', cursive;
+text-align: center;
+font-size: 48pt;
+border-bottom: 2px solid #2E0622;
+font-weight: normal; 
+padding-bottom: 50px;
+padding-left: 5px;
+padding-right: 5px;
+color: rgb(136, 148, 104);
+}
+/*Circlet CSS It's not finished yet
+#bills_circlet{
+  border: 1px solid rgb(70, 201, 224);
+  position: sticky;
+  top:84pt;
+
+ }*/
+#bills_circlet img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+/*Main content CSS*/
 .main_circle{
 
   
-  background: #2E0622;
+  background: #2E0622 no-repeat center / cover;
   border: 1px solid white;
   margin-top: 50px;
-  //margin-bottom: 50px;
+  margin-bottom: 50px;
   margin-left: 0;
-  //overflow: hidden;
-  
+  position:relative;
+
 }
-.charter_content_r{
-  
-  text-align: right;
-  margin-top: 250px;
-  margin-bottom: 250px;
-  margin-left: 15%;
-  margin-right: 35%;
-  height: 10em;
+/*TXT css*/
+.main_circle p{
+  /*border: 1px solid rgb(70, 201, 224);*/
+  color: rgb(136, 148, 104);
+ 
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 18pt;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+.charter_content_r{
+ /*border: 1px solid rgb(70, 201, 224);*/
+  text-align: right;
+  margin-left: 15%;
+  margin-right: 35%;
+  align-items: center;
+  justify-content: center;
+  
   
  }
  .charter_content_l{
- 
+  /*border: 1px solid rgb(70, 201, 224);*/
   text-align: left;
-  margin-top: 250px;
-  margin-bottom: 250px;
   margin-left: 25%;
   margin-right: 15%;
-  height: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+   
  }
+ /*Img CSS*/
  .main_circle img{
+ 
   width: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
-  transform: translateY(50%);
-  margin-top: 0;
-
-
- }
-.chaterpic{
+  margin-left: 100px;
+  margin-right: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   
+ }
+ 
+.chaterpic{
+   /*border: 1px solid rgb(70, 201, 224);*/
   float: left; 
-  border: 1px solid rgb(70, 201, 224);
-
+ 
 }
+
 .chaterpic_r{
+/*border: 1px solid rgb(70, 201, 224);*/
 float: right; 
-//top:50%;
-//padding-bottom: 0;
-transform: translateY(-50%);
-border: 1px solid rgb(70, 201, 224);
-
-
+padding-left: 75%;
 }
-#Stanford_tx{
-margin-left: 220px;
+#stan_img{
+  /*border: 1px solid rgb(70, 201, 224);*/
+  width: 400px;
+  padding-left: 65%;
+  
+}
+#Gideon{
+  /*border: 1px solid rgb(70, 201, 224);*/
+  width: 350px;
+  padding-left: 65%;
+}
+#McGucket{
+  width: 300px;
+}
+/*Buttons CSS*/
+.main_circle button{
+  border: 1px solid rgb(70, 201, 224);
+  background: #2E0622;
+  text-decoration: none;
+  padding: 15px 32px;
+  position: absolute;
+  left: 25%;
+  top: 75%;
+  
+}
+.button_right{
+  
 }
